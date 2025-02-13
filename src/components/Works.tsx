@@ -4,6 +4,7 @@ import pastelPicker from "../img/pastel-color-picker.png";
 import primitivePachinko from "../img/primitive-pachinko.png";
 import quizApp from "../img/quiz-app.png";
 import hayauti from "../img/hayauti.png";
+import todoApp from "../img/todo-app.png";
 import { motion } from "framer-motion";
 
 const Works = () => {
@@ -102,6 +103,21 @@ const Works = () => {
         >
           <a href="https://hayauti-app.vercel.app/">
             <img src={hayauti} alt="サイトプレビュー" />
+          </a>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          whileInView={{ opacity: 0.9, y: 0 }}
+          whileHover={{
+            opacity: 0.4,
+            scale: 1.2,
+            transition: { duration: 0.3 },
+          }}
+          className="md:w-[28%] md:pb-20"
+        >
+          <a href="https://vercel.com/azs-projects-b9dbaca7/todo-app">
+            <img src={todoApp} alt="サイトプレビュー" />
           </a>
         </motion.div>
       </div>
