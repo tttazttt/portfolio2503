@@ -6,6 +6,7 @@ import quizApp from "../img/quiz-app.png";
 import hayauti from "../img/hayauti.png";
 import todoApp from "../img/todo-app.png";
 import typingApp from "../img/typing-app.png";
+import reversiApp from "../img/reversi-app.png";
 import { motion } from "framer-motion";
 
 const Works = () => {
@@ -147,8 +148,8 @@ const Works = () => {
           }}
           className="md:w-[28%] md:pb-20"
         >
-          <a href="https://typing-app-six-eosin.vercel.app/">
-            <img src={typingApp} alt="サイトプレビュー" />
+          <a href="https://reversi-app.vercel.app/">
+            <img src={reversiApp} alt="サイトプレビュー" />
           </a>
         </motion.div>
       </div>
